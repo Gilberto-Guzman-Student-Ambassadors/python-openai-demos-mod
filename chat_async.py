@@ -69,4 +69,5 @@ async def multiple():
         print(answer, "\n")
 
 
-asyncio.run(single())
+# asyncio.run(single())
+asyncio.run(multiple())
