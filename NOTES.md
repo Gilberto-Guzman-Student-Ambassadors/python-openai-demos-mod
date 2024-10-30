@@ -15,7 +15,7 @@
     chat_langchain.py --> ???
     chat_llamaindex.py --> ???
 
-    few_shot_examples.py --> 
+    few_shot_examples.py -->
     prompt_engineering.py --> Organización de mensajes
     function_calling.py -->
 
@@ -28,3 +28,14 @@
     azd provision
     azd env set AZURE_LOCATION "eastus"
     pwsh ./write_dot_env.ps1
+
+    https://github.com/marketplace/models/
+
+    https://www.youtube.com/watch?v=n1uUn2Hy0ek
+
+
+
+    azd init -t azure-openai-keyless-python
+    azd auth login
+    azd provision
+    ./write_dot_env.sh
